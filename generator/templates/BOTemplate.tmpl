@@ -1,0 +1,24 @@
+package ${packagePath}.entiy;
+
+#for $prop in $properties
+#if $prop.type == 'date'
+import java.util.Date;
+#end if
+#end for
+
+public class $className.capitalize() {
+
+#for $prop in $properties
+   private $prop.type.capitalize() $prop.property;
+#end for
+
+#for $prop in $properties
+   public void set${prop.property.capitalize()}($prop.type.capitalize() $prop.property){
+       this.$prop.property = $prop.property;
+   }
+   
+   public $prop.type.capitalize() get${prop.property.capitalize()}() {
+       return $prop.property;
+   }
+#end for
+}
