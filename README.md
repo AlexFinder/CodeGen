@@ -1,4 +1,4 @@
-Cheetah-2.4.4.tar.gz## About CodoGen
+## About CodoGen
 
 CodeGen是基于Python实现的代码生成器，采用```cheetah```技术（类似j2ee的```velocity```），你可以根据相应配置去定制不同的模板，再根据模板生成自己想要的代码。
 
@@ -99,4 +99,4 @@ your code...
 #end for
 ```
 
-详细请参考[《官方手册》](http://www.cheetahtemplate.org/docs/users_guide.pdf)
+关于cheetah详细使用，请参考[《官方手册》](http://www.cheetahtemplate.org/docs/users_guide.pdf)
